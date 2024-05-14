@@ -187,7 +187,7 @@ Par exemple, une URL comme https://adventure-works.com/about peut exécuter une 
 
 ## Créer des chemins et des vues dans Django
 
-Ouvrez views.py dans le dossier hello_world.
+Ouvrez `views.py` dans le dossier hello_world.
 Remplacez le contenu actuel par le code suivant :
 
 ```python
@@ -205,7 +205,7 @@ Créer la route
 Une fois la vue créée, nous devons la mapper à l'URL appropriée.
 
 Dans Visual Studio Code, créez un fichier nommé urls.py dans le dossier hello_world.
-Ajoutez le code suivant dans urls.py :
+Ajoutez le code suivant dans `urls.py` :
 
 ```python
 
@@ -222,8 +222,8 @@ Inscrire URLconf dans le projet
 
 Pour que notre application puisse gérer les demandes utilisateur, nous devons inscrire URLconf dans le fichier urls.py principal.
 
-Ouvrez urls.py dans le dossier helloproject.
-Remplacez la ligne from django.urls import path par :
+Ouvrez `urls.py` dans le dossier helloproject.
+Remplacez la ligne `from django.urls import path` par :
 
 ```python
 
@@ -250,3 +250,25 @@ Ouvrez l'URL http://localhost:8000/ dans votre navigateur.
 Vous devriez voir "Hello, world!" s'afficher dans la fenêtre de votre navigateur.
 
 Félicitations ! Vous avez créé votre première application Django avec des chemins et des vues.
+
+## Préparation à la partie 2 du workshop
+
+### 1. Poser des questions
+
+N'hésitez pas à poser des questions si la moindre explication de ce worshop n'a pas était clair. Je suis là pour vous aider à progresser dans votre apprentissage de Django.
+
+### 2. Développer vos compétences en front-end
+
+Poussez vos connaissances en front-end en pratiquant avec des technologies telles que HTML, CSS et JavaScript. Essayez de créer des scripts JavaScript de base pour rendre votre application web plus interactive.
+
+### 3. Assurez-vous d'avoir un fichier requirements.txt à jour
+
+Assurez-vous que votre fichier requirements.txt contienne toutes les dépendances nécessaires à votre projet Django. Mettez à jour ce fichier si vous avez ajouté de nouvelles dépendances ou effectué des changements dans votre environnement de développement.
+
+### 4. Mettre en pratique vos compétences en Django
+
+Profitez de cette période de préparation pour mettre en pratique vos compétences en Django. Révisez les concepts abordés dans la première partie du workshop et essayez de créer de nouvelles fonctionnalités pour améliorer votre projet.
+
+### 5. Explorez de nouvelles ressources
+
+Explorez de nouvelles ressources en ligne telles que des tutoriels, des documentations officielles et des forums de discussion pour approfondir vos connaissances en Django. Plus vous en saurez, plus vous serez préparé pour la suite du workshop.
