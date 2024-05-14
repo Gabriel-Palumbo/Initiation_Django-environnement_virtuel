@@ -79,3 +79,25 @@ pip install -r requirements.txt
 ```
 
 Une fois l'installation terminée, vous êtes prêt à commencer à développer votre application Django !
+
+## Concepts de base de Django
+
+Ce README explore les concepts fondamentaux de Django, notamment les différences entre un projet et une application, les vues et le mappage d'URL.
+
+### Différences entre un projet et une application
+
+| Project | Application |
+|---------|-------------|
+| Il ne peut y avoir qu’un seul projet. | Il peut y avoir de nombreuses applications dans le même projet. |
+| Contient les paramètres ou applications nécessaires pour un site web spécifique. | Est l’un des composants du site web global. |
+| Les projets ne sont pas utilisés dans d’autres projets. | Les applications peuvent être utilisées dans de multiples projets. |
+
+### Vues
+
+Les vues sont des composants des applications Django. Elles exécutent une fonction spécifique au sein de chaque application. Les vues contiennent le code nécessaire pour renvoyer une réponse spécifique à une demande, telle qu'un modèle ou une image. Elles peuvent également rediriger vers une autre page si nécessaire.
+
+### Mappage d’URL
+
+Dans Django, le mappage d’URL est appelé URLconf et sert de table des matières pour votre application. Lorsqu'il reçoit une demande d'URL, ce module recherche le lien approprié dans le projet, puis redirige la demande vers le fichier de vues contenu dans l'application. La vue traite ensuite la demande et effectue les opérations nécessaires.
+
+À mesure que la structure de fichiers devient plus complexe, vous ajouterez des vues et des URL supplémentaires à votre application. La fonction URLconf joue un rôle clé en permettant de gérer et d'organiser facilement les URL au sein de l'application, tout en offrant une flexibilité pour changer les chemins racines sans risquer de casser l'application.
